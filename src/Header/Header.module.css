@@ -1,0 +1,33 @@
+.header {
+  padding: 25px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.navlist {
+  display: flex;
+  flex-grow: 1;
+  gap: 24px;
+}
+.navmenu {
+  flex-grow: 1;
+}
+.navlistul {
+  display: flex;
+  justify-content: center;
+  gap: 54px;
+  flex-grow: 1;
+}
+
+.navitem {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  padding: 24px 0;
+  text-transform: uppercase;
+}

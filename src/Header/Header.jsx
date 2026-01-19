@@ -1,0 +1,46 @@
+import css from "./Header.module.css";
+
+export default function Header() {
+  return (
+    <section>
+      <header className={css.header}>
+        <div className={css.container}>
+          <nav className={css.navlist}>
+            <div>
+              <a href="./">R.R.</a>
+            </div>
+            <div className={css.navmenu}>
+              <ul className={css.navlistul}>
+                <li>
+                  <a className={css.navitem} href="">
+                    About Me
+                  </a>
+                </li>
+                <li>
+                  <a className={css.navitem} href="">
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a className={css.navitem} href="">
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a className={css.navitem} href="">
+                    Education
+                  </a>
+                </li>
+                <li>
+                  <a className={css.navitem} href="">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </section>
+  );
+}
