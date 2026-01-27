@@ -1,0 +1,33 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+}
+.headandicons {
+  max-width: 420px;
+}
+
+.iconlist {
+  display: flex;
+  gap: 15px;
+}
+
+.iconlistli {
+}
+.iconitem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 38px;
+  height: 38px;
+  transition: transform 0.2s ease;
+  will-change: transform;
+  transform-origin: center;
+}
+
+.iconitem:hover {
+  transform: scale(1.1);
+}
