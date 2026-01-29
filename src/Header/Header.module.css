@@ -18,7 +18,7 @@
 }
 .navlistul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 54px;
   flex-grow: 1;
 }
