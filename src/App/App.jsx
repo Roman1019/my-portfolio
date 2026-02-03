@@ -1,4 +1,5 @@
 import AboutMe from "../AboutMe/AboutMe";
+import AboutMeSecond from "../AboutMeSecond/AboutMeSecond";
 import Header from "../Header/Header";
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
       <Header />
       <main>
         <AboutMe />
+        <AboutMeSecond />
       </main>
     </>
   );

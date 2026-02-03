@@ -1,0 +1,33 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px; */
+}
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.generaldiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+.generaldiv > div {
+  flex: 1;
+}
+
+.textAboutMe {
+  white-space: pre-wrap;
+}
+
+/* .myImg {
+  max-width: 400px;
+  max-height: 400px;
+} */

@@ -3,35 +3,35 @@ import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import { BsTelephone } from "react-icons/bs";
 export default function AboutMe() {
-  const developer = {
-    name: "Roman Romaniv",
-    role: "Full Stack Developer",
-    skills: {
-      frontend: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Redux Toolkit",
-        "TypeScript",
-      ],
-      backend: ["Node.js", "Express", "MongoDB"],
-      tools: ["Git", "Vite", "REST API"],
-    },
+  // const developer = {
+  //   name: "Roman Romaniv",
+  //   role: "Full Stack Developer",
+  //   skills: {
+  //     frontend: [
+  //       "HTML",
+  //       "CSS",
+  //       "JavaScript",
+  //       "React",
+  //       "Redux Toolkit",
+  //       "TypeScript",
+  //     ],
+  //     backend: ["Node.js", "Express", "MongoDB"],
+  //     tools: ["Git", "Vite", "REST API"],
+  //   },
 
-    hardWorker: true,
-    problemSolver: true,
-    quickLeaner: true,
+  //   hardWorker: true,
+  //   problemSolver: true,
+  //   quickLeaner: true,
 
-    hireable: function () {
-      const totalSkills =
-        this.skills.frontend.length +
-        this.skills.backend.length +
-        this.skills.tools.length;
+  //   hireable: function () {
+  //     const totalSkills =
+  //       this.skills.frontend.length +
+  //       this.skills.backend.length +
+  //       this.skills.tools.length;
 
-      return this.hardWorker && this.problemSolver && totalSkills >= 6;
-    },
-  };
+  //     return this.hardWorker && this.problemSolver && totalSkills >= 6;
+  //   },
+  // };
 
   return (
     <section>
