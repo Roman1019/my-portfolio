@@ -12,6 +12,10 @@
   flex: 1;
 }
 
+.codeblock {
+  flex: 1;
+}
+
 .generalhead {
   font-size: 42px;
   font-weight: 600;
@@ -29,7 +33,6 @@
 .generalheadpro {
   display: block;
   color: rgb(51, 102, 255);
-  margin-right: 8px;
 }
 
 .iconlist {
@@ -37,35 +40,36 @@
   gap: 27px;
 }
 
-.iconlistli {
-}
 .iconitem {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  border: 1px solid;
+
   width: 45px;
   height: 45px;
-  transition: transform 0.2s ease;
+  border-radius: 50%;
+
+  border: 1px solid #334155;
+  background-color: transparent;
+  color: #e5e7eb;
+
+  transition:
+    transform 0.4s ease,
+    background-color 0.4s ease,
+    color 0.4s ease,
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
+
   will-change: transform;
-  transform-origin: center;
 }
 
 .iconitem:hover {
+  background-color: rgb(51, 102, 255);
+
+  border-color: rgb(51, 102, 255);
   transform: scale(1.1);
 }
-.codeblock {
-  flex: 1;
-}
 
-.spanwhitepos2 {
-  display: block;
-}
-
-.details {
-  display: inline;
-}
 .codeblock {
   background-color: #0f172a;
   color: #e5e7eb;

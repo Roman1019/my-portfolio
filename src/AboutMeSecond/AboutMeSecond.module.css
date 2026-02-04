@@ -10,6 +10,9 @@
 .head {
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  color: #facc15;
 }
 
 .generaldiv {
@@ -23,11 +26,28 @@
   flex: 1;
 }
 
+.headSecond {
+  text-transform: uppercase;
+  color: rgb(51, 102, 255);
+  margin-bottom: 32px;
+}
+
 .textAboutMe {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
   white-space: pre-wrap;
 }
 
-/* .myImg {
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myImg {
+  border-radius: 15px;
   max-width: 400px;
   max-height: 400px;
-} */
+}

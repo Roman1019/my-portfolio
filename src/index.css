@@ -28,12 +28,21 @@ img {
 }
 
 body {
+  font-family:
+    "Montserrat",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   box-sizing: border-box;
   width: 100%;
   color: white;
+  position: relative;
   /* background-color: #0f172a; */
   background-color: #030a29;
   /* background-color: #111827; */

@@ -10,16 +10,16 @@ Completed five projects, including two team projects, with a focus on clean code
 Motivated to grow within a team of developers and create user-friendly, valuable software solutions.`;
 
   return (
-    <section>
+    <section id="about">
       <div className={css.container}>
         <h2 className={css.head}>About Me</h2>
         <div className={css.generaldiv}>
           <div>
-            <h3>Who I am?</h3>
+            <h3 className={css.headSecond}>Who I am?</h3>
             <p className={css.textAboutMe}>{text}</p>
           </div>
 
-          <div>
+          <div className={css.imgWrapper}>
             <img
               src={myPhoto}
               alt="Roman - Frontend Developer"

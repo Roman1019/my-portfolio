@@ -1,8 +1,17 @@
 import css from "./Header.module.css";
+import clsx from "clsx";
+import { useState } from "react";
+
+// const getLinkStyle = ({ isActive }) => {
+//   return clsx(css.navitem, isActive && css.active);
+// };
 
 export default function Header() {
+  const [active, setActive] = useState("about");
+
+  const linkClass = (name) => clsx(css.navitem, active === name && css.active);
   return (
-    <section>
+    <section className={css.sectionHeader}>
       <header className={css.header}>
         <div className={css.container}>
           <nav className={css.navlist}>
@@ -12,12 +21,20 @@ export default function Header() {
             <div className={css.navmenu}>
               <ul className={css.navlistul}>
                 <li>
-                  <a className={css.navitem} href="">
+                  <a
+                    href="#about"
+                    className={linkClass("about")}
+                    onClick={() => setActive("about")}
+                  >
                     About Me
                   </a>
                 </li>
                 <li>
-                  <a className={css.navitem} href="">
+                  <a
+                    href="#skills"
+                    className={linkClass("skills")}
+                    onClick={() => setActive("skills")}
+                  >
                     Skills
                   </a>
                 </li>
