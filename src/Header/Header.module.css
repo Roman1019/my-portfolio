@@ -39,8 +39,9 @@
   letter-spacing: -0.02em;
   padding: 24px 0;
   text-transform: uppercase;
+  transition: color 0.25s ease;
 }
 
-.active {
+.navitem:hover {
   color: red;
 }
