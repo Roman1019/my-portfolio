@@ -1,0 +1,81 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px; */
+}
+
+.sectionHeader {
+}
+.skillsList {
+  display: flex;
+  gap: 15px;
+}
+.skillsItem {
+  /* background-color: aliceblue; */
+  /* width: 200px;
+  height: 200px; */
+}
+
+.skillsItemDiv {
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 25px;
+  width: 140px;
+  height: 150px;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#0a123b, #0a123b) padding-box,
+    linear-gradient(90deg, #3b82f6, #ef4444) border-box;
+
+  transition:
+    transform 0.4s ease,
+    background-color 0.4s ease,
+    color 0.4s ease,
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
+
+  will-change: transform;
+}
+
+.skillsItemDiv:hover {
+  transform: scale(1.05);
+  border-color: rgb(103, 0, 103);
+}
+.iconSlillsBaze {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.iconSkillsHtml {
+  color: #e34f26;
+}
+
+.iconSkillsCss {
+  color: #1572b6;
+}
+.iconSkillsJs {
+  color: #f7df1e;
+}
+
+.iconSkillsReact {
+  color: #61dafb;
+}
+
+.iconSkillsTs {
+  color: #3178c6;
+}
+
+.iconSkillsNode {
+  color: #339933;
+}
+.textIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
