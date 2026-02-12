@@ -1,5 +1,6 @@
 import css from "./AboutMeSecond.module.css";
 import myPhoto from "../../assets/photo/IMG_20250409_215858_172.webp";
+import Line from "../Line/Line";
 
 export default function AboutMeSecond() {
   const text = `Full Stack Developer with experience in HTML, CSS, JavaScript, React and Node.js.
@@ -26,8 +27,8 @@ Motivated to grow within a team of developers and create user-friendly, valuable
               className={css.myImg}
             />
           </div>
+          <Line />
         </div>
-        <div className={css.line}></div>
       </div>
     </section>
   );

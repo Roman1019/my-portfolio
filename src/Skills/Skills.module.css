@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 80px 32px;
 }
+.generalDiv {
+  position: relative;
+}
 
 .sectionHeader {
 }
@@ -37,7 +40,7 @@
 }
 
 .skillsItemDiv:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
   border-color: rgb(103, 0, 103);
 }
 

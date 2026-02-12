@@ -5,7 +5,11 @@ export default function Projects() {
     <section>
       <div>
         <ul>
-          <li></li>
+          <li>
+            <a href="">
+              <img src="../../assets/photo/simplyChocolate.webp" alt="" />
+            </a>
+          </li>
         </ul>
       </div>
     </section>
