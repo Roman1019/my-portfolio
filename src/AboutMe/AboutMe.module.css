@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 32px;
@@ -132,4 +133,20 @@
   color: #64748b;
   font-style: italic;
   margin-top: 8px;
+}
+
+.line {
+  position: absolute;
+  bottom: 0;
+  width: 1200px;
+  height: 0.7px;
+
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #7c3aed 25%,
+    #3b82f6 50%,
+    #7c3aed 75%,
+    transparent 100%
+  );
 }

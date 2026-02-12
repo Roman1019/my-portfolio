@@ -2,29 +2,23 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 32px;
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 64px; */
 }
 
 .sectionHeader {
 }
 .skillsList {
   display: flex;
-  gap: 15px;
+  gap: 25px;
+  padding: 15px;
 }
 .skillsItem {
-  /* background-color: aliceblue; */
-  /* width: 200px;
-  height: 200px; */
 }
 
 .skillsItemDiv {
   box-sizing: border-box;
   cursor: pointer;
   border-radius: 15px;
-  padding: 25px;
+  padding: 30px;
   width: 140px;
   height: 150px;
   border: 2px solid transparent;
@@ -46,6 +40,7 @@
   transform: scale(1.05);
   border-color: rgb(103, 0, 103);
 }
+
 .iconSlillsBaze {
   display: flex;
   align-items: center;
@@ -74,8 +69,42 @@
 .iconSkillsNode {
   color: #339933;
 }
+
+.iconSkillsGit {
+  color: #ff5a3c;
+}
+
+.iconSkillsMongo {
+  color: #4db33d;
+}
+.iconSkillsRedux {
+  color: #8a63d2;
+}
 .textIcon {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.sectionTitle {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.line {
+  position: absolute;
+  bottom: 0;
+  width: 1200px;
+  height: 0.7px;
+
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #7c3aed 25%,
+    #3b82f6 50%,
+    #7c3aed 75%,
+    transparent 100%
+  );
 }

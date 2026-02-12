@@ -27,6 +27,7 @@ Motivated to grow within a team of developers and create user-friendly, valuable
             />
           </div>
         </div>
+        <div className={css.line}></div>
       </div>
     </section>
   );

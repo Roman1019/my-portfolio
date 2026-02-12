@@ -180,6 +180,7 @@ export default function AboutMe() {
             <span>{"};"}</span>
           </div>
         </div>
+        <div className={css.line}></div>
       </div>
     </section>
   );
