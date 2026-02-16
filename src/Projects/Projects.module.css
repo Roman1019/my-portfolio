@@ -1,0 +1,21 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+}
+.projectsList {
+  display: flex;
+  gap: 12px;
+}
+
+.projectItem {
+  width: calc((100%-48px) / 3);
+}
+
+.projectLink {
+}
+.projectsImg {
+}
+
+.projectText {
+}

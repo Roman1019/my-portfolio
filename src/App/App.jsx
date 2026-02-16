@@ -12,7 +12,7 @@ export default function App() {
         <AboutMe />
         <AboutMeSecond />
         <Skills />
-        {/* <Projects /> */}
+        <Projects />
       </main>
     </>
   );
