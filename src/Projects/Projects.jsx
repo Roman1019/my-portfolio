@@ -1,4 +1,5 @@
 import css from "./Projects.module.css";
+import { MdArrowOutward } from "react-icons/md";
 
 export default function Projects() {
   return (
@@ -16,7 +17,16 @@ export default function Projects() {
                 alt=""
               />
             </a>
-            <p className={css.projectText}>Simply Chocolate</p>
+            <a
+              className={css.projectText}
+              href="https://roman1019.github.io/hw-01-tutorial/"
+            >
+              Simply Chocolate <MdArrowOutward size={15} />
+            </a>
+
+            {/* <p className={css.projectText}>
+              Simply Chocolate <MdArrowOutward />
+            </p> */}
             <button>link</button>
             <button>Github</button>
           </li>
@@ -46,7 +56,7 @@ export default function Projects() {
                 alt=""
               />
             </a>
-            <p className={css.projectText}>Simply Chocolate</p>
+            <a className={css.projectText}>Simply Chocolate </a>
             <button>link</button>
             <button>Github</button>
           </li>
