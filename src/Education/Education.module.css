@@ -1,0 +1,65 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+}
+.generalDiv {
+  position: relative;
+}
+.educationTitle {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #facc15;
+}
+
+.educationList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.educationItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 30px;
+  width: 750px;
+  /* height: 150px; */
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#0a123b, #0a123b) padding-box,
+    linear-gradient(90deg, #3b82f6, #ef4444) border-box;
+
+  transition:
+    transform 0.4s ease,
+    background-color 0.4s ease,
+    color 0.4s ease,
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
+
+  will-change: transform;
+}
+
+.educationIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.educationYear {
+  text-align: center;
+}
+
+.educationName {
+}
+
+.educationInstutution {
+}

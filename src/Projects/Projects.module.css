@@ -4,6 +4,10 @@
   padding: 80px 32px;
 }
 
+.generalDiv {
+  position: relative;
+}
+
 .sectionTitle {
   margin-bottom: 50px;
   display: flex;
@@ -16,7 +20,7 @@
 .projectsList {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 90px;
 }
 
 .projectItem {
@@ -41,7 +45,7 @@
 }
 .projectText {
   display: inline-block;
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 20px;
 
   color: rgb(51, 102, 255);

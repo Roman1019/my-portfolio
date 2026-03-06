@@ -3,6 +3,7 @@ import AboutMeSecond from "../AboutMeSecond/AboutMeSecond";
 import Header from "../Header/Header";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
+import Education from "../Education/Education";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <AboutMeSecond />
         <Skills />
         <Projects />
+        <Education />
       </main>
     </>
   );
