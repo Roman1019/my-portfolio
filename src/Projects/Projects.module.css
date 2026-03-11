@@ -39,6 +39,17 @@
 
   /* object-fit: contain; */
   border-radius: 10px;
+
+  transition:
+    transform 0.4s ease,
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
+
+  will-change: transform;
+}
+
+.projectsImg:hover {
+  transform: scale(1.07);
 }
 .projectContent {
   flex: 1;
