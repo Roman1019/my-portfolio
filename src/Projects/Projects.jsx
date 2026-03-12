@@ -1,6 +1,7 @@
 import Line from "../Line/Line";
 import css from "./Projects.module.css";
 import { MdArrowOutward } from "react-icons/md";
+import SimplyChocolate from "../../assets/photo/simplyChocolate.webp";
 
 export default function Projects() {
   return (
@@ -18,8 +19,8 @@ export default function Projects() {
               >
                 <img
                   className={css.projectsImg}
-                  src="../../assets/photo/simplyChocolate.webp"
-                  alt="SimplyChocolate"
+                  src={SimplyChocolate}
+                  alt="SimplyChocolate Photo"
                 />
               </a>
               <div className={css.projectContent}>

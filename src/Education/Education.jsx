@@ -1,7 +1,7 @@
 import css from "./Education.module.css";
 import Line from "../Line/Line";
 import { FaUserGraduate } from "react-icons/fa";
-
+import programmingImg from "../../assets/photo/undraw_programming_j1zw.svg";
 export default function AboutMe() {
   return (
     <section id="education">
@@ -10,10 +10,7 @@ export default function AboutMe() {
           <h2 className={css.educationTitle}>Education</h2>
           <div className={css.flexDiv}>
             <div className={css.educationImage}>
-              <img
-                src="../../assets/photo/undraw_programming_j1zw.svg"
-                alt="Programming illustration"
-              />
+              <img src={programmingImg} alt="Programming illustration" />
             </div>
             <ul className={css.educationList}>
               <li className={css.educationItem}>
