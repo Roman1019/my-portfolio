@@ -2,6 +2,11 @@ import Line from "../Line/Line";
 import css from "./Projects.module.css";
 import { MdArrowOutward } from "react-icons/md";
 import SimplyChocolate from "../../assets/photo/simplyChocolate.webp";
+import EffectiveSolutions from "../../assets/photo/business.webp";
+import PhotographySchool from "../../assets/photo/photography.webp";
+import PortfolioLLoyd from "../../assets/photo/PortfolioLLoyd.webp";
+import Tasteorama from "../../assets/photo/Tasteorama.webp";
+import Phonebook from "../../assets/photo/phoneBook.webp";
 
 export default function Projects() {
   return (
@@ -52,7 +57,7 @@ export default function Projects() {
               >
                 <img
                   className={css.projectsImg}
-                  src="../../assets/photo/business.webp"
+                  src={EffectiveSolutions}
                   alt="Website Effective solutions for Your Business"
                 />
               </a>
@@ -84,7 +89,7 @@ export default function Projects() {
               >
                 <img
                   className={css.projectsImg}
-                  src="../../assets/photo/photography.webp"
+                  src={PhotographySchool}
                   alt="Photography School"
                 />
               </a>
@@ -118,7 +123,7 @@ export default function Projects() {
               >
                 <img
                   className={css.projectsImg}
-                  src="../../assets/photo/PortfolioLLoyd.webp"
+                  src={PortfolioLLoyd}
                   alt="Portfolio LLoyd Jefferson"
                 />
               </a>
@@ -144,6 +149,39 @@ export default function Projects() {
                 </ul>
               </div>
             </li>
+            <li className={css.projectItem}>
+              <a
+                className={css.projectLink}
+                href="https://goit-react-hw-08-zeta-virid.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className={css.projectsImg}
+                  src={Phonebook}
+                  alt="Phonebook photo"
+                />
+              </a>
+              <div className={css.projectContent}>
+                <a
+                  className={css.projectText}
+                  href="https://goit-react-hw-08-zeta-virid.vercel.app/"
+                  target="_blank"
+                >
+                  Contacts App{" "}
+                  <MdArrowOutward className={css.projectArrow} size={25} />
+                </a>
+                <p className={css.projectDescription}>
+                  Implemented application with registration, LogIn, LogOut
+                  capabilities. In the Contacts tab, you can add and delete
+                  users, and search filtering by name is also implemented
+                </p>
+                <ul className={css.slillsList}>
+                  <li className={css.slillsItem}>HTML</li>
+                  <li className={css.slillsItem}>CSS</li>
+                  <li className={css.slillsItem}>React</li>
+                </ul>
+              </div>
+            </li>
 
             <li className={css.projectItem}>
               <a
@@ -153,7 +191,7 @@ export default function Projects() {
               >
                 <img
                   className={css.projectsImg}
-                  src="../../assets/photo/Tasteorama.webp"
+                  src={Tasteorama}
                   alt="Tasteorama recipe application interface"
                 />
               </a>
