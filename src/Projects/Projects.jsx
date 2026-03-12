@@ -4,7 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 export default function Projects() {
   return (
-    <section>
+    <section id="projects">
       <div className={css.container}>
         <div className={css.generalDiv}>
           {" "}

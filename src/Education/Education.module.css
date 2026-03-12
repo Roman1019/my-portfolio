@@ -81,5 +81,8 @@
 }
 
 .line {
-  background: #ef4444;
+  /* background: #3b82f6; */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
 }

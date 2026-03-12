@@ -13,7 +13,7 @@ import Line from "../Line/Line";
 
 export default function Header() {
   return (
-    <section className={css.sectionHeader}>
+    <section className={css.sectionHeader} id="skills">
       <div className={css.container}>
         <div className={css.generalDiv}>
           <h2 className={css.sectionTitle}>Skills</h2>

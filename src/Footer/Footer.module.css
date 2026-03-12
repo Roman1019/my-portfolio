@@ -1,0 +1,61 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+.generalDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descriptionFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spanColor {
+  color: rgb(51, 102, 255);
+  /* color: #ed3b44; */
+}
+
+.logoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconlist {
+  display: flex;
+  gap: 27px;
+}
+
+.iconitem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  border: 1px solid #334155;
+  background-color: transparent;
+  color: #e5e7eb;
+
+  transition:
+    transform 0.4s ease,
+    background-color 0.4s ease,
+    color 0.4s ease,
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
+
+  will-change: transform;
+}
+
+.iconitem:hover {
+  background-color: rgb(51, 102, 255);
+
+  border-color: rgb(51, 102, 255);
+  transform: scale(1.1);
+}

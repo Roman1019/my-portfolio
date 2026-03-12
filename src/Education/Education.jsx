@@ -4,7 +4,7 @@ import { FaUserGraduate } from "react-icons/fa";
 
 export default function AboutMe() {
   return (
-    <section>
+    <section id="education">
       <div className={css.container}>
         <div className={css.generalDiv}>
           <h2 className={css.educationTitle}>Education</h2>

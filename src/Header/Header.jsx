@@ -22,20 +22,20 @@ export default function Header() {
                   </a>
                 </li>
                 <li>
-                  <a className={css.navitem} href="">
+                  <a className={css.navitem} href="projects">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a className={css.navitem} href="">
+                  <a className={css.navitem} href="education">
                     Education
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a className={css.navitem} href="">
                     Contact
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </nav>
