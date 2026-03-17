@@ -63,6 +63,6 @@ a {
 .section {
   padding: 32px 0;
   font-family: "Roboto", serif;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
 }

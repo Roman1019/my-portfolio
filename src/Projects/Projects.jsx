@@ -6,7 +6,7 @@ import EffectiveSolutions from "../../assets/photo/business.webp";
 import PhotographySchool from "../../assets/photo/photography.webp";
 import PortfolioLLoyd from "../../assets/photo/PortfolioLLoyd.webp";
 import Tasteorama from "../../assets/photo/Tasteorama.webp";
-import Phonebook from "../../assets/photo/phoneBook.webp";
+import Phonebook from "../../assets/photo/contactApp.webp";
 
 export default function Projects() {
   return (
