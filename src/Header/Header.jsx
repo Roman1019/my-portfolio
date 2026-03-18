@@ -1,4 +1,5 @@
 import css from "./Header.module.css";
+import { HiOutlineBars3 } from "react-icons/hi2";
 
 export default function Header() {
   return (
@@ -38,6 +39,9 @@ export default function Header() {
                 </li> */}
               </ul>
             </div>
+            <button className={css.burger}>
+              <HiOutlineBars3 />
+            </button>
           </nav>
         </div>
       </header>

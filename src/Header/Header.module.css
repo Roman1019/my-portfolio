@@ -46,11 +46,18 @@
     max-width: 768px;
   }
 }
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    max-width: 368px;
+  }
+}
 .navlist {
   display: flex;
   flex-grow: 1;
   gap: 24px;
 }
+
 .navmenu {
   flex-grow: 1;
 }
@@ -59,6 +66,12 @@
   justify-content: flex-end;
   gap: 54px;
   flex-grow: 1;
+}
+
+@media screen and (max-width: 767.9px) {
+  .navlistul {
+    display: none;
+  }
 }
 
 .navitem {
@@ -73,4 +86,13 @@
 
 .navitem:hover {
   color: red;
+}
+.burger {
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (min-width: 767.9px) {
+  .burger {
+    display: none;
+  }
 }
