@@ -32,11 +32,6 @@ export default function Header() {
                     Education
                   </a>
                 </li>
-                {/* <li>
-                  <a className={css.navitem} href="">
-                    Contact
-                  </a>
-                </li> */}
               </ul>
             </div>
             <button className={css.burger}>

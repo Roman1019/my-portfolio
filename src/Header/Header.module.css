@@ -1,7 +1,6 @@
 .sectionHeader {
   position: sticky;
   top: 0;
-  /* background: rgba(255, 255, 255, 0.7); */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   z-index: 999;
@@ -18,7 +17,7 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 
-  background: rgba(10, 18, 59, 0.6); /* 🔥 важливо */
+  background: rgba(10, 18, 59, 0.6);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 
   will-change: backdrop-filter;
@@ -26,15 +25,6 @@
 .header {
   padding: 25px 0;
 }
-
-/* .header {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-} */
 
 .container {
   max-width: 1200px;

@@ -30,14 +30,11 @@
 
 .projectLink {
   flex: 1;
-  /* height: 300px; */
-  /* overflow: hidden; */
   min-height: 230px;
   border-radius: 10px;
 }
 .projectsImg {
   width: 100%;
-  /* height: 100%; */
   object-fit: contain;
   display: block;
 
@@ -66,12 +63,9 @@
 }
 
 .projectArrow {
-  /* display: flex; */
-  /* margin-bottom: 4px; */
 }
 
 .projectDescription {
-  /* max-width: 450px; */
   font-size: 19px;
   line-height: 1.6;
   margin-bottom: 45px;
@@ -82,20 +76,10 @@
   gap: 20px;
 }
 
-/* .slillsItem {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  padding: 15px;
-  background-color: #ed3b44;
-} */
-
 .slillsItem {
   padding: 8px 16px;
   border-radius: 8px;
   font-size: 14px;
   background: #1e1e2f;
   color: rgb(51, 102, 255);
-  /* border: 1px solid #2c2f4a; */
 }

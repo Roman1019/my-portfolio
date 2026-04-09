@@ -43,7 +43,6 @@
 }
 
 .skillsItemDiv:hover {
-  /* transform: scale(1.15); */
   border-color: rgb(103, 0, 103);
 }
 

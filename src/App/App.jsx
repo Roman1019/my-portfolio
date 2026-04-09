@@ -12,11 +12,11 @@ export default function App() {
       <Header />
       <main>
         <AboutMe />
-        {/* <AboutMeSecond />
+        <AboutMeSecond />
         <Skills />
         <Projects />
         <Education />
-        <Footer /> */}
+        <Footer />
       </main>
     </>
   );

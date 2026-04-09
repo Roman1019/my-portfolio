@@ -43,12 +43,7 @@ body {
   width: 100%;
   color: white;
   position: relative;
-  /* background-color: #0f172a; */
   background-color: #030a29;
-  /* background-color: #111827; */
-  /* background-color: #0b0f1a; */
-
-  /* background-color: rgb(4, 1, 46); */
 }
 
 html {
@@ -63,6 +58,5 @@ a {
 .section {
   padding: 32px 0;
   font-family: "Roboto", serif;
-  /* max-width: 1440px; */
   margin: 0 auto;
 }
