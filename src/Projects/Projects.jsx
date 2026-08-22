@@ -7,6 +7,7 @@ import PhotographySchool from "../../assets/photo/photography.webp";
 import PortfolioLLoyd from "../../assets/photo/PortfolioLLoyd.webp";
 import Tasteorama from "../../assets/photo/Tasteorama.webp";
 import Phonebook from "../../assets/photo/contactApp.webp";
+import CodeStore from "../../assets/photo/codeStore.webp";
 
 export default function Projects() {
   return (
@@ -217,6 +218,80 @@ export default function Projects() {
                   <li className={css.slillsItem}>CSS</li>
                   <li className={css.slillsItem}>React</li>
                   <li className={css.slillsItem}>Node.js</li>
+                </ul>
+              </div>
+            </li>
+            <li className={css.projectItem}>
+              <a
+                className={css.projectLink}
+                href="https://roman1019.github.io/Documentation-IA/"
+                target="_blank"
+              >
+                <img
+                  className={css.projectsImg}
+                  src={CodeStore}
+                  alt="Phonebook photo"
+                />
+              </a>
+              <div className={css.projectContent}>
+                <a
+                  className={css.projectText}
+                  href="https://roman1019.github.io/Documentation-IA/"
+                  target="_blank"
+                >
+                  Rétro-documentation IA
+                  <MdArrowOutward className={css.projectArrow} size={25} />
+                </a>
+                <p className={css.projectDescription}>
+                  I also independently developed an additional web project for
+                  practice using HTML and CSS, with some JavaScript
+                  functionality. I created the project from scratch to improve
+                  my frontend development skills, practice responsive design,
+                  and strengthen my understanding of JavaScript and website
+                  structure.
+                </p>
+                <ul className={css.slillsList}>
+                  <li className={css.slillsItem}>HTML</li>
+                  <li className={css.slillsItem}>CSS</li>
+                  <li className={css.slillsItem}>JS</li>
+                </ul>
+              </div>
+            </li>
+            <li className={css.projectItem}>
+              <a
+                className={css.projectLink}
+                href="code-store-website.webflow.io"
+                target="_blank"
+              >
+                <img
+                  className={css.projectsImg}
+                  src={CodeStore}
+                  alt="Phonebook photo"
+                />
+              </a>
+              <div className={css.projectContent}>
+                <a
+                  className={css.projectText}
+                  href="code-store-website.webflow.io"
+                  target="_blank"
+                >
+                  Rétro-documentation IA
+                  <MdArrowOutward className={css.projectArrow} size={25} />
+                </a>
+                <p className={css.projectDescription}>
+                  I also independently recreated a similar web project in
+                  Webflow for additional practice. I built and customized the
+                  website using Webflow, working with layouts, responsive
+                  design, styles, interactions, and website structure. This
+                  project helped me improve my practical Webflow skills and
+                  better understand how to create modern, responsive websites
+                  without writing all the code manually.
+                </p>
+                <ul className={css.slillsList}>
+                  <li className={css.slillsItem}>HTML</li>
+                  <li className={css.slillsItem}>CSS</li>
+                  <li className={css.slillsItem}>JS</li>
+                  <li className={css.slillsItem}>WebFlow</li>
                 </ul>
               </div>
             </li>
