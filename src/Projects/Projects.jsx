@@ -8,6 +8,8 @@ import PortfolioLLoyd from "../../assets/photo/PortfolioLLoyd.webp";
 import Tasteorama from "../../assets/photo/Tasteorama.webp";
 import Phonebook from "../../assets/photo/contactApp.webp";
 import CodeStore from "../../assets/photo/codeStore.webp";
+import HealthSignal from "../../assets/photo/HealthSignal.webp";
+import TravelVaccines from "../../assets/photo/TravelVaccines.webp";
 
 export default function Projects() {
   return (
@@ -286,6 +288,76 @@ export default function Projects() {
                   project helped me improve my practical Webflow skills and
                   better understand how to create modern, responsive websites
                   without writing all the code manually.
+                </p>
+                <ul className={css.slillsList}>
+                  <li className={css.slillsItem}>HTML</li>
+                  <li className={css.slillsItem}>CSS</li>
+                  <li className={css.slillsItem}>JS</li>
+                  <li className={css.slillsItem}>WebFlow</li>
+                </ul>
+              </div>
+            </li>
+            <li className={css.projectItem}>
+              <a
+                className={css.projectLink}
+                href="https://roman1019.github.io/HealthSignal/"
+                target="_blank"
+              >
+                <img
+                  className={css.projectsImg}
+                  src={HealthSignal}
+                  alt="Phonebook photo"
+                />
+              </a>
+              <div className={css.projectContent}>
+                <a
+                  className={css.projectText}
+                  href="https://roman1019.github.io/HealthSignal/"
+                  target="_blank"
+                >
+                  Health Signal
+                  <MdArrowOutward className={css.projectArrow} size={25} />
+                </a>
+                <p className={css.projectDescription}>
+                  I independently developed a responsive healthcare landing page
+                  using HTML, CSS, and JavaScript. The project includes several
+                  content sections and interactive elements. I created it as a
+                  practical frontend project to improve my skills in web
+                  development, responsive design.
+                </p>
+                <ul className={css.slillsList}>
+                  <li className={css.slillsItem}>HTML</li>
+                  <li className={css.slillsItem}>CSS</li>
+                </ul>
+              </div>
+            </li>
+            <li className={css.projectItem}>
+              <a
+                className={css.projectLink}
+                href="https://travel-vaccines-160e72.webflow.io"
+                target="_blank"
+              >
+                <img
+                  className={css.projectsImg}
+                  src={TravelVaccines}
+                  alt="Phonebook photo"
+                />
+              </a>
+              <div className={css.projectContent}>
+                <a
+                  className={css.projectText}
+                  href="https://travel-vaccines-160e72.webflow.io"
+                  target="_blank"
+                >
+                  Travel Vaccines
+                  <MdArrowOutward className={css.projectArrow} size={25} />
+                </a>
+                <p className={css.projectDescription}>
+                  I independently developed a responsive website in Webflow
+                  using HTML, CSS, and JavaScript. I worked on the website
+                  structure, styling, responsive layout, and interactive
+                  elements. The project helped me improve my Webflow skills and
+                  frontend development experience.
                 </p>
                 <ul className={css.slillsList}>
                   <li className={css.slillsItem}>HTML</li>
